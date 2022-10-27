@@ -1,25 +1,20 @@
-<script src="https://kit.fontawesome.com/e190e3d7ed.js" crossorigin="anonymous"></script>
-.payment{
-	background-color: rgba(239,239, 239,0.6);
-}
+*{margin: 0%;border: 1px solid red;}
 .nav{
 	display: flex;
 	align-items: center;
 	border: 1px solid none;
 	margin: 0% 3%;
-	padding-left: 1%;
-	height: 88px;
-   }
-
-.nav img{vertical-align: center;}
-.nav a{padding-right: 2.5%;
+	padding:1.5% 1%;
+}
+.nav img{vertical-align: middle;}
+.nav a{
+		padding-right: 2.5%;
 		text-decoration: none;
 		color: black;
 		font-family: inter,sans-serif;
 		font-weight: bold;
 		background-color: white;
-		}
-
+	}
 .button{ border:1px solid none ;
 			align-items: center;
 			justify-content: flex-end;
@@ -28,250 +23,163 @@
 		   margin-left: 15%;
 		   border-radius: 25px;
 		   background-color: #00baf2;}
-
-	   
-
 #one{padding-left: 17%;}
-
 .img1{border: 1px solid none  ;
-	margin-left: 0.2%;
-	}
-	
-.sec_2{
-		
-		text-align: center;
+	margin-left: 0.2%;}
+.sec_2{ text-align: center;
 		align-items: center;
 		border: 1px solid red;
 		border-color: rgba(0, 0, 0, 0.0);
 		background-color: #f6f6f6;
 		font-family: inter,sans-serif;
-		height: 60px;
-        }
+		padding: % 0%;}
 .sec_2 a{
 		text-decoration: none;
 		color: black;
-		font-weight: bold;
-        }
-
+		font-weight: bold;}
 #zero{ width: 16%;
 padding-bottom: 45px;}
-
- 
-
-
 .sec2{
 		display: flex;
 		justify-content:space-between;
 		border: 1px solid none;
-		padding: 5% 0% 5% 17%;
+		padding: 7% 0% 5% 17%;
 		font-family: inter,sans-serif;
-		line-height: 25px;
-
+		line-height: 25px;}
+#india{
+	font-weight:bold;
+	 font-size: 54px;
+	 line-height: 70px;
+}
+#recharge{font-size: 19px;
+	font-weight: bold;
+	line-height: 30px;}
+.span1{margin-bottom: 2%;
 
 	}
 
-
-
-.downloadbutton{
-				border: 1px solid black;
-				width: 15%;
-				text-decoration: none;
-				color: white;
-				background-color: black;
-				padding: 2%;
-				border-radius: 25px;
-
-                }
-
-.downloadbutton:hover{
-					background-color: white;
-					color: black;
-                     }
- .downloadbutton *{margin: 0% 0% 0% 3%}
-
-
-
 #div1{width: 30%;}
-
 .sec3{
 	border: 1px solid none;
-	height: 340px;
-	padding: 1% 17%;
+
+	padding: 3% 17% 4%;
 	background-color: #00baf2;
 	color: white;
-	font-family: Inter,sans-serif;
-
-}
+	font-family: Inter,sans-serif;}
 #sec3_header{
 	font-size: 40px;
 	font-weight: bold;
-}
+margin-bottom: 2%;}
 .sec3 div{
 	border: 1px solid  none;
 	width: 30%;
 	border-radius: 15px;margin-right: 3.7%;
-	height: 140px;
 	padding: 1.5%;
-	padding-bottom: 0.4%;
-
-
-	
-}
+	padding-bottom: 2%;}
 .sec3 img{
-	width: 55%;
-	padding-bottom: 10%;
-	
-}
-
-	
+	width: 70%;
+	padding-bottom: 10%;}
 .sec3_main{
 	display: flex;
-	justify-content: space-evenly;
-
-}
+	justify-content: space-evenly;}
 .sec3 span{font-weight: bold;}
 .sec3 a{
 	text-decoration: none;
-	color: white;
-
+	color: white;}
+.sec3_main div:hover{
+	background-color: blue;
 }
-.sec3_img1:hover{background-color: blue;}
+/*.sec3_img1:hover{background-color: blue;}
 .sec3_img2:hover{background-color: blue;}
 .sec3_img3:hover{background-color: blue;}
 .sec3_img4:hover{background-color: blue;}
 .sec3_img5:hover{background-color: blue;}
 .sec3_img6:hover{background-color: blue;}
-.sec3_img7:hover{background-color: blue;}
-
+.sec3_img7:hover{background-color: blue;}*/
 .sec4{
 	border: 1px solid none;
-	height: 340px;
-	padding: 1% 17%;
-	background-color: #4762b2;
-	color: white;
-	font-family: Inter,sans-serif;
 
-}
+	padding: 3% 17%;
+	background-color: #0f4b8a;
+	color: white;
+	font-family: Inter,sans-serif;}
 #sec4_header{
 	font-size: 40px;
 	font-weight: bold;
-}
+margin-bottom: 2%;}
 .sec4 div{
 	border: 1px solid  none;
 	width: 30%;
 	border-radius: 15px;margin-right: 3.7%;
-	height: 140px;
 	padding: 1.5%;
-	padding-bottom: 0.4%;
-
-
-	
-}
-.sec4 img{
-	width: 55%;
-	padding-bottom: 10%;
-	
-}
-
-	
+	padding-bottom: 2%;}
+.sec4 img{width: 70%;
+		  padding-bottom: 10%;}
 .sec4_main{
-	display: flex;
-	justify-content: space-evenly;
-
-}
+			display: flex;
+			justify-content: space-evenly;}
 .sec4 span{font-weight: bold;}
-.sec4 a{
-	text-decoration: none;
-	color: white;
-
-}
-.sec4_img1:hover{background-color: blue;}
+.sec4 a{text-decoration: none;
+		color: white;}
+.sec4 div:hover{background-color: blue;}
+/*.sec4_img1:hover{background-color: blue;}
 .sec4_img2:hover{background-color: blue;}
 .sec4_img3:hover{background-color: blue;}
 .sec4_img4:hover{background-color: blue;}
 .sec4_img5:hover{background-color: blue;}
 .sec4_img6:hover{background-color: blue;}
-.sec4_img7:hover{background-color: blue;}
-
+.sec4_img7:hover{background-color: blue;}*/
 .sec5{border: 1px solid none;
-	height: 500px;
 	margin: 3% 20% 5%;font-family: inter,sans-serif;
 	display: flex;
 	justify-content:space-evenly;
  	padding: 3%;
- 	background-color: #ffffff;}
-
-
+ 	border-radius: 10px;
+ 	background-color: #fff;
+}
 .sec5_header{font-size: 50px;
 			font-weight: bold;
 			margin-left:20% ;
-			margin-top: 5%;
+			margin-top: 0%;
 			margin-bottom: 2%;
-			}
-
-
-
-.sec5_main *{margin:0.5%;}
-.sec5_main div{
-	padding-left: 9%;
-}
-.wallet{
-	display: flex;
-	justify-content: flex-start;
-	padding: 10% 9% 5%;
-
-
-}
+			padding-top: 6%;
+			font-family:inter,sans-serif ;}
+.sec5_main *{margin-bottom: 5.4%;}
+.sec5_main div{padding-left: 9%;}
+.wallet{display: flex;
+		justify-content: flex-start;
+		padding: 10% 9% 5%;
+		margin-top: 10%;}
 .downloadbutton1{
 				border: 1px solid black;
-				width: 15%;
+				width: 10%;
 				text-decoration: none;
 				color: white;
 				background-color: black;
-				padding: 1%;
+				padding: 3%;
 				border-radius: 25px;
-			margin-left: 9%;
-
-
-                }
-
-.downloadbutton1:hover{
-					background-color: white;
-					color: black;
-
-                     }
- .downloadbutton1 *{margin: 0% 2%}
-
+			    margin-left: 9%;}
+.downloadbutton1:hover{background-color: white;
+						color: black;}
+.downloadbutton1 *{margin: 0% 1%}
 .sec6{border: 1px solid none;
-	height: 500px;
 	margin: 3% 20% 5%;font-family: inter,sans-serif;
 	display: flex;
 	justify-content:space-evenly;
  	padding: 3%;
- 	background-color: #ffffff;}
-
- 	.downloadbutton2:hover{
-					background-color: white;
-					color: black;
-
-                     }
-     .downloadbutton2{
-				border: 1px solid black;
-				width: 15%;
-				text-decoration: none;
-				color: white;
-				background-color: black;
-				padding: 1%;
-				border-radius: 25px;
-                }
-    .downloadbutton2 *{margin: 0% 1%}
+ 	background-color: #fff;
+ 	border-radius: 10px;
+}
+.sec6but{margin-left: 0%;}
 .sec7{border: 1px solid none;
 	height: 500px;
 	margin: 3% 20% 5%;font-family: inter,sans-serif;
 	display: flex;
 	justify-content:space-evenly;
- 	padding: 3%;
- 	background-color: #ffffff;}
+ 	padding: 1%;
+ 	background-color: #ffffff;
+ border-radius: 10px;
+}
 
 .learn{
 	border: 1px solid none;
@@ -284,19 +192,18 @@ padding-bottom: 45px;}
 #sec71{padding: 10% 9% 5% 0%;	}
 
 .sec8_9{
-	border: 1px solid none;
-	height: 650px;
-	margin: 3% 20% 5%;font-family: inter,sans-serif;
- 	background-color: #ffffff;
  	display: flex;
- 	justify-content: space-between;}
+ 	justify-content:space-around ;
+ 	padding-bottom: 5%;}
 
  .sec8{
  	border: 1px solid none;
- 	width: 45%;
+ 	width: 25%;
  	height: 100%;
  	padding-left: 3%;
  	background-color: #ffffff;
+ 	margin-left:19%;
+ 	border-radius: 10px;
  	}
 
 .sec8 a{
@@ -305,10 +212,13 @@ padding-bottom: 45px;}
 }
 .sec9{
  	border: 1px solid none;
- 	width: 45%;
- 	height: 100%;
+ 	width: 25%;
  	padding-left: 3%;
  	background-color: #ffffff;
+ 	border: 1px solid none;
+ 	margin-right: 19%;
+ 	border-radius: 10px;
+
 
  	}
 
@@ -322,7 +232,6 @@ padding-bottom: 45px;}
 
 .sec10{
 	border: 1px solid none;
-	height: 570px;
 	padding-top: 10%;
 		display: flex;
 	justify-content: center;}
@@ -331,7 +240,6 @@ padding-bottom: 45px;}
 
 #sec102{
 	width: "23%" ;
-	height: "500px";
 	vertical-align: center;
 }
 .learnbutton{
@@ -348,10 +256,12 @@ padding-bottom: 45px;}
 	background-color: skyblue;
 	color: white;
 }
+.sec11but{
+	padding: 4%;
+}
 
 .sec11{
 	border: 1px solid none;
-	height: 600px;
 	background-image:url(images/sec11background.webp) ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -381,7 +291,6 @@ padding-bottom: 45px;}
 }
 .sec12{
 	border: 1px solid none;
-	height: 580px;
 	display: flex;
 	justify-content: center;
 	padding-top: 5%;
@@ -399,7 +308,6 @@ padding-bottom: 45px;}
 }
 .sec13{
 	border: 1px solid none;
-	height: 580px;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: rgba(211,211,211,0.1);
@@ -420,7 +328,6 @@ padding-bottom: 45px;}
 }
 .sec14{
 	border: 1px solid none;
-	height: 620px;
 	width: 60%;
 	margin-left: 18%;
 	margin-top: 1%;
@@ -439,7 +346,6 @@ padding-bottom: 45px;}
 }
 .sec15{
 	border: 1px solid none;
-	height: 500px;
 	width: 60%;
 	margin-left: 18%;
 	margin-top: 3%;
@@ -489,7 +395,6 @@ padding-bottom: 45px;}
 .sec17{
 	border: 1px solid none;
 	width: 60%;
-	height: 320px;
 	margin-left: 18%;
 	margin-top: 13%;
 	display: flex;
@@ -505,7 +410,6 @@ margin-bottom: 20%;}
 .div2{
 	border: 1px solid none;
 	width: 20%;
-	height: 265px;
 
 }
 .earn{
@@ -524,9 +428,9 @@ margin-bottom: 20%;}
 }
 .div3{border: 1px solid none;
 	width: 14%;
-	height: 265px;
 	background-color: deepskyblue;
 	border-radius: 15px;
+	
 
 }
 .sec17img{
@@ -543,7 +447,6 @@ margin-bottom: 20%;}
 	border-radius: 5px;
 	background-color: black;
 	color: white;
-	height: 50px;
 	margin-top: 1%;
 	vertical-align: middle;
 
@@ -558,7 +461,7 @@ width: 70%;
 
 }
 .fa-brands{
-	margin-right: 5%;
+	margin-right:2%;
 
 }
 .paytm{
@@ -584,6 +487,25 @@ width: 70%;
 	color: darkgray;
 	
 	padding-right: 3%;
+}
+@media(max-width: 1366px){
+	.nav a{
+		font-size: 12px;}
+	.button{width: 6.87%;}
+	.text1{font-size: 8px;}
+	#india{
+		font-size: 39px;
+		line-height: 44px;
+	}
+	#recharge{font-size: 13px;
+		line-height:15px;
+		margin-bottom: 3%;
+
+	}
+	.downloadbutton1{
+		font-size: 10px;
+
+	}
 }
 
 

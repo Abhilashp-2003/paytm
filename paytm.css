@@ -17,7 +17,8 @@
 		font-weight: bold;
 		background-color: white;
 	}
-.button{ border:1px solid none ;
+.button{ 
+		border:1px solid none ;
 			align-items: center;
 			justify-content: flex-end;
 			width: 5.4%;
@@ -61,7 +62,6 @@ padding-bottom: 45px;}
 	font-weight: bold;
 	line-height: 30px;}
 .span1{margin-bottom: 2%;
-
 	}
 
 #div1{width: 30%;}
@@ -182,10 +182,14 @@ margin-bottom: 2%;}
  	background-color: #fff;
  	border-radius: 10px;
 }
+#sec6header{
+ font-weight: bold;font-size: 34px;
+}
 .sec6but{margin-left: 0%;}
 .sec6wallet{padding: 0% 0% 13% !important;
 	margin-top: 0%;
 }
+#sec6text{margin: 3% 0%; line-height: 25px;}
 #sec7text1{font-weight: bold;
 					font-size: 38px;
 
@@ -608,19 +612,19 @@ width: 70%;
 	}
 }
 @media(max-width:420px){
-	* {margin: 0%;border: 1px solid red;}
+	* {margin: 0%;border: 1px solid none;}
 	.nav a{
 		font-size: 5px;
 	}
 	
 	.img1{
-		width: 300%;
+		width: 60px;
 	}
 	#ton{
-		width: 30%;
+		width: 50%;
 	}
-	.button{width: 190%;}
-	#but{font-size: 60%;}
+	.button{width: 100%; padding: 0%;}
+	#but{font-size: 30%;}
 	#emo{font-size: 10px;}
 	#india{
 		font-size: 20px;
@@ -658,7 +662,7 @@ width: 70%;
 		}
 		.sec3 div{
 		margin-bottom: 8%;
-		border: 1px solid red;
+		border: 1px solid none;
 		width: 50%;
 
 		}
@@ -674,7 +678,7 @@ width: 70%;
 		}
 		.sec4 div{
 		margin-bottom: 8%;
-		border: 1px solid red;
+		border: 1px solid none;
 		width: 50%;
 
 		}
@@ -684,8 +688,1124 @@ width: 70%;
 		.sec5_header{
 			font-size: 25px;
 		}
+		#sec5_img{
+			width: 35%;
+			padding: 15% 0%; margin: 0%;
+		}
+#fast1{font-size: 20px;
+line-height: 100%;}
+#loadup{font-size: 15px;
 
 }
+.wallet{
+	margin: 0%;
+	padding: 0%;
+}
+.sec5_main{
+	margin: 0%;
+	padding: 0%;
+}
+#sec6img{width: 28%;
+margin: 5% 0%}
+#sec6header{
+	font-size: 25px;
+}
+#sec6text{
+	font-size: 10px;
+	line-height: 100%;
+}
+.wallet{
+	padding-bottom: 0%;
+}
+.sec6wallet{padding: 0% 0% 0% !important;
+	margin-top: 0%;
+}
+#sec7text1{font-size: 20px;}
+#sec7text2{font-size: 15px;
+line-height: 100%;}
+#sec71{width: 30%;
+}
+#sec72{width: 40%;
+}
+
+.sec8_9{
+ 	display: flex;
+ flex-direction: column;
+ }
+ .sec8{
+ 	border: 1px solid none;
+ 	width:100%;
+ 	background-color: #ffffff;
+ 	border-radius: 10px;
+ 	}
+ .sec9{
+ 	border: 1px solid none;
+ 	width:100%;
+ 	background-color: #ffffff;
+ 	border-radius: 10px;
+ 	}
+ 	#financial{
+ 		font-size: 25px;
+ 	}
+ 	#sec10text1{
+ 		font-size: 22px;
+ 	}
+ 	#sec10text2{
+ 		font-size: 8.5px;
+ 		margin-bottom: 0%;
+ 	}
+ 	#sec102{
+ 		width: 50%;
+ 		margin:5% 0% ;
+ 	}
+ 	#sec10img{
+ 		width: 40%;
+ 	}
+ 	#sec11img{
+ 	width: 40%;
+ 	}
+ 	.sec11header{
+ 		font-size: 20px;
+ 	}
+ 	.sec11text{
+ 		font-size: 9px;
+ 		line-height: 140%;
+ 	}
+ 	#sec12img{width: 30%;}
+ 	.sec12header{font-size: 25px;}
+ 	#sec12img2{width: 40%;
+ 		margin: 2%;}
+ 	.sec12text{
+ 			font-size: 9px;
+ 			line-height: 130%;
+ 		}
+ 		#sec13img1{margin-left: 0%;
+ 			width: 40%	;}
+ 	.business{font-size: 30px;
+ 		margin-left: 0%;}
+ 		.sec14{
+ 			margin: 0%;
+ 			width: 100%;
+ 		}
+ 		.sec14main{margin: 0%;}
+ 		.sec15{
+ 			margin: 0%;
+ 			width: 100%;
+ 		}
+ 		.sec15main{margin: 0%;}
+
+ 		.business{
+ 			font-size: 20px;
+ 		}
+ 		.sec16{border: 1px solid none;
+	width: 60%;
+	margin-left: 18%;
+	margin-top: 3%;
+	display:flex;
+ flex-flow: column;
+ margin-bottom: 5%;
+ height: 100%;
+	}
+	.div1{
+	border: 1px solid none;
+	width: 100%;
+}
+.sec17{
+	display: flex;
+	flex-flow: column;
+}
+.div3{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.div2{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.paytm{
+	display: flex;
+	flex-flow: column;
+	border: 1px solid none;
+	padding: 0% 12%;
+	margin-top: 10%;
+	background-color:rgba(239,239,239.0.5);
+}
+.logos{
+	border: 1px solid none;
+	width: 70%;
+	display:flex;
+	justify-content: space-evenly;
+	opacity: 0.5;
+	padding: 1%;
+	font-size: 45px;
+}
+.lastsec{
+	flex-flow: column;
+}
+.div4{
+	width: 100%;
+}
+.nav{
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid none;
+	margin: 0% 0%;
+	padding:1.5% 1%;
+}
+.nav a{
+		padding-right: 2.5%;
+		text-decoration: none;
+		color: black;
+		font-family: inter,sans-serif;
+		font-weight: bold;
+		background-color: white;
+	}
+	.zoom{transition: transform .2s;}
+	.zoom:hover{
+		transform:  scale(1.05);
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
 
 
 

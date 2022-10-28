@@ -1,5 +1,6 @@
 *{margin: 0%;border: 1px solid none	;
   font-family: inter ,sans-serif;}
+
 .nav{
 	display: flex;
 	align-items: center;
@@ -24,6 +25,10 @@
 		   margin-left: 15%;
 		   border-radius: 25px;
 		   background-color: #00baf2;}
+.button:hover{
+	background-color: blue;
+
+}
 #one{padding-left: 17%;}
 .img1{border: 1px solid none  ;
 	margin-left: 0.2%;}
@@ -90,13 +95,6 @@ margin-bottom: 2%;}
 .sec3_main div:hover{
 	background-color: blue;
 }
-/*.sec3_img1:hover{background-color: blue;}
-.sec3_img2:hover{background-color: blue;}
-.sec3_img3:hover{background-color: blue;}
-.sec3_img4:hover{background-color: blue;}
-.sec3_img5:hover{background-color: blue;}
-.sec3_img6:hover{background-color: blue;}
-.sec3_img7:hover{background-color: blue;}*/
 .sec4{
 	border: 1px solid none;
 
@@ -123,13 +121,7 @@ margin-bottom: 2%;}
 .sec4 a{text-decoration: none;
 		color: white;}
 .sec4 div:hover{background-color: blue;}
-/*.sec4_img1:hover{background-color: blue;}
-.sec4_img2:hover{background-color: blue;}
-.sec4_img3:hover{background-color: blue;}
-.sec4_img4:hover{background-color: blue;}
-.sec4_img5:hover{background-color: blue;}
-.sec4_img6:hover{background-color: blue;}
-.sec4_img7:hover{background-color: blue;}*/
+
 .abhi{
 	background-color: rgba(239, 239, 239,0.6)
 }
@@ -494,7 +486,8 @@ margin-top: 10%;}
 	margin-right: 1%;
 }
 #sec17img{width: 80%;
-margin-bottom: 20%;}
+margin-bottom: 20%;
+border: 1px solid none;}
 
 .div2{
 	border: 1px solid none;
@@ -524,6 +517,12 @@ margin-bottom: 20%;}
 }
 .div3:hover{
 	background-color: deepskyblue;
+}
+.zoom{
+	transition: transform .2s;
+}
+.zoom:hover{
+	transform: scale(1.05);
 }
 .sec18{
 	margin-top: 7.7%;
@@ -586,6 +585,9 @@ width: 70%;
 	color:darkslategray;
 	padding-right: 3%;
 }
+#emo{
+	font-size: 28px;
+}
 @media(max-width: 1366px){
 	.nav a{
 		font-size: 12px;}
@@ -604,6 +606,85 @@ width: 70%;
 		font-size: 10px;
 
 	}
+}
+@media(max-width:420px){
+	* {margin: 0%;border: 1px solid red;}
+	.nav a{
+		font-size: 5px;
+	}
+	
+	.img1{
+		width: 300%;
+	}
+	#ton{
+		width: 30%;
+	}
+	.button{width: 190%;}
+	#but{font-size: 60%;}
+	#emo{font-size: 10px;}
+	#india{
+		font-size: 20px;
+	 margin-top: 3%;
+	line-height: 1px;}
+	#recharge{
+		font-size: 7px;
+		line-height: 0px;
+ 
+		
+	}
+	#sec2img{
+		width: 50%;
+		margin:10% 0% ;
+	}
+	.sec2{
+		justify-content: center;
+		padding: 0%;
+	}
+	#zero{
+		padding: 0%;
+	}
+	#div1{width: 100%;
+		margin: 10% 0%}
+	#sec3_header{
+			font-size: 30px;
+		}
+		.sec3_main{
+			flex-direction: column;
+			margin-left: 30%;
+			pa
+		}
+		.sec3{
+			padding: 0%;
+		}
+		.sec3 div{
+		margin-bottom: 8%;
+		border: 1px solid red;
+		width: 50%;
+
+		}
+			#sec4_header{
+			font-size: 30px;}
+		.sec4_main{
+			flex-direction: column;
+			margin-left: 30%;
+			pa
+		}
+		.sec4{
+			padding: 0%;
+		}
+		.sec4 div{
+		margin-bottom: 8%;
+		border: 1px solid red;
+		width: 50%;
+
+		}
+		.abhi *{
+			margin: 0%;
+		}
+		.sec5_header{
+			font-size: 25px;
+		}
+
 }
 
 
